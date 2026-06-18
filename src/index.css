@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colori — design system Billotto */
+  --color-background: #F7F7F9;
+  --color-surface: #FFFFFF;
+  --color-text: #1D1D1F;
+  --color-text-secondary: #86868B;
+  --color-border: #D2D2D7;
+  --color-border-subtle: #E8E8ED;
+  --color-accent: #3A6EA5;
+  --color-accent-subtle: #EAF0F6;
+  --color-success: #3F8A6E;
+  --color-danger: #C0524B;
+
+  /* Tipografia */
+  --font-sans: 'Inter', 'SF Pro Display', system-ui, sans-serif;
+  --text-page-title: 26px;
+  --text-section-title: 15px;
+  --text-caption: 11px;
+
+  /* Ombra delle card */
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.05);
+}

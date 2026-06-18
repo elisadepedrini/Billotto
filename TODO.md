@@ -6,8 +6,8 @@ apre l'app → inserisce cliente e voci di lavoro → sceglie il regime IVA → 
 ## Core (MVP)
 
 ### 1. Setup progetto
-- [ ] Inizializzare il progetto con Vite + React + TypeScript
-- [ ] Configurare la struttura delle cartelle (components, types, utils, pages)
+- [ x ] Inizializzare il progetto con Vite + React + TypeScript
+- [ x ] Configurare la struttura delle cartelle (components, types, utils, pages)
 - [ ] Installare le dipendenze necessarie (jsPDF o react-pdf)
 - [ ] Configurare il deploy su Vercel/Netlify con una pagina placeholder (demo live cliccabile fin da subito)
 

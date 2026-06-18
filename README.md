@@ -23,6 +23,7 @@ Ogni freelance ha bisogno di emettere documenti commerciali chiari e corretti, c
 ### Frontend
 - React
 - Typescript
+- Tailwind CSS
 
 ### Generazione PDF
 - jsPDF / react-pdf
