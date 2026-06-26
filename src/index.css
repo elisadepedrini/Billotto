@@ -22,3 +22,13 @@
   /* Ombra delle card */
   --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
+
+/* BUTTONS */
+@layer components {
+  .btn-primary {
+    @apply bg-accent text-white font-semibold rounded-lg px-4 py-2 hover:brightness-90 transition;
+  }
+  .btn-secondary {
+    @apply bg-surface text-text font-semibold rounded-lg px-4 py-2 border border-border hover:brightness-95 transition;
+  }
+}

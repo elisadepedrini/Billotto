@@ -1,8 +1,22 @@
+
+import { Route, Routes } from "react-router";
+import Button from "./components/Button";
+import DefaultLayout from "./layouts/DefaultLayout";
+import NewEstimatePage from "./pages/NewEstimatePage";
+import ArchivePage from "./pages/ArchivePage";
+import NewInvoicePage from "./pages/NewInvoicePage";
+
+
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <h1 className="text-page-title font-semibold text-text">Billotto</h1>
-    </div>
+    <Routes>
+      <Route element={<DefaultLayout/>}>
+        <Route path="/" element={<NewEstimatePage/>}/>
+        <Route path="/archivio" element={<ArchivePage/>}/>
+        <Route path="/fatture" element={<NewInvoicePage/>}/>
+      </Route>
+    </Routes>
+    
   );
 }
 
